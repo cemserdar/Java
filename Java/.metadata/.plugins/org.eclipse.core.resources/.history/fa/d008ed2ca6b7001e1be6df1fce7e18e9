@@ -1,0 +1,27 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		String InternetSubeButonu = "İnternet Şubesi";
+		double dolarDun = 8.15;
+		double dolarBugun = 8.18;
+		int vade = 36;
+		boolean dustuMu = true;
+
+		System.out.println(InternetSubeButonu);
+		System.out.println(dolarDun);
+		System.out.println(vade);
+		System.out.println(dustuMu);
+
+		if (dolarBugun < dolarDun) {
+			System.out.println("Dolar Düştü Resmi");
+		} else if (dolarBugun > dolarDun) {
+			System.out.println("Dolar Yükseldi Resmi");
+		} else {
+			System.out.println("Dolar Eşittir Resmi");
+		}
+
+	}
+}
