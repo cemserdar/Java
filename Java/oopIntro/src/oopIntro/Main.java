@@ -35,5 +35,13 @@ public class Main {
         category2.id = 2;
         category2.name = "Ev/Bahçe";
 
+
+
+        ProductManager productManager = new ProductManager();
+        productManager.addToCard(product1);
+        productManager.addToCard(product2);
+        productManager.addToCard(product3);
+
+
     }
 }
