@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class CorparateCustomer {
+public class CorporateCustomer extends Customer {
+     String companyName;
+     String taxNumber;
 }
