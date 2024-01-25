@@ -1,5 +1,5 @@
 public class Customer {
      int id;
-     String CustomerNumber;
+     String customerNumber;
 }
 //Base/Super class
